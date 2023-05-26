@@ -1,0 +1,134 @@
+
+.contenedor{
+  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilos CSS para el chatbot */
+#chatbot {
+  padding: 10px;
+  background-color: #353740;
+  width: 1500px;
+  height: 700px;
+  overflow-y: scroll;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+
+#chatbot::-webkit-scrollbar {
+  width: 10px; 
+  background-color: rgba(59, 59, 59, 0.363); 
+  border-radius: 10px; 
+}
+  
+ 
+#chatbot::-webkit-scrollbar-thumb {
+  background-color: #a19f9f9d; 
+  border-radius: 10px; 
+}
+  
+ 
+#chatbot::-webkit-scrollbar-thumb:hover {
+  background-color: #8f8d8d57; 
+}
+  
+/* Estilos CSS para el zona mensajes  y boton*/
+
+#userInput {
+  width: 1030px;
+  height: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 0px;
+  padding: 5px;
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.123);
+  padding: 20px;
+}
+
+#sendButton {
+  background-color: #4caf4f00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  height: 30px;
+  filter: grayscale(100%) brightness(150%);
+}
+  
+#sendButton img {
+  height: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+    
+}
+
+  
+.navbar {
+  background-color: #ad1e1e00;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-links li {
+  margin-left: 15px;
+}
+
+.btn {
+  background-color: rgba(240, 255, 255, 0);
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.7s;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc354600;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  transition: background-color 0.7s;
+  cursor: pointer;
+  color: white;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.contenedor2{
+  background-color: #353740;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: -5px;
+}
+
+.contenedor3{
+  background-color: #353740;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  margin-top: -5px;
+}
+
+.boton{
+  padding-top: 13px;
+}

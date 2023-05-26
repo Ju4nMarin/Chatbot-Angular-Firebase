@@ -1,0 +1,14 @@
+<div class="container">
+    <form [formGroup]="formReg" (ngSubmit)="onSubmit()">
+      <h2>Registrarse</h2>
+      <hr class="separator">
+      <input type="email" id="email" formControlName="email" required placeholder="Correo electronico">
+      <input type="password" id="password" formControlName="password" required placeholder="Contraseña">
+      <button type="submit">Registrarse</button>
+    </form>
+    <div class="register">
+      <p>¿Tienes cuenta?</p>
+      <button routerLink="/login" routerLinkActive="active-link">Inicia sesion</button>
+    </div>
+</div>
+  

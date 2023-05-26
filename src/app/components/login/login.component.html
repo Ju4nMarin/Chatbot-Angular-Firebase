@@ -1,0 +1,19 @@
+<div class="container">
+  
+  <form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+    <h2>INGRESA</h2>
+    <hr class="separator">
+      <input type="email" id="email"  formControlName="email" required placeholder="Correo electronico">
+      <input type="password" id="password" formControlName="password"  required placeholder="Contraseña">
+      <button type="submit">Iniciar sesión</button>
+      <label class="o">O</label>
+      <img class= "g-logo" (click)="onClick()" src="assets\g-logo.webp">
+  </form>
+    <div class="register">
+      <p>¿No tienes una cuenta?</p>
+      <button routerLink="/register" routerLinkActive="active-link">Registrarse</button>
+    </div>
+    
+</div>
+
+  

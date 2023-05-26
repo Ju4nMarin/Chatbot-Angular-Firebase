@@ -1,0 +1,91 @@
+
+
+
+/* Box del bot */
+.chat-message {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+   
+.chat-message > img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20%;
+}
+  
+.chat-message > .message-bubble {
+    background-color: #141414;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Tahoma';
+    margin-top: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 60%;
+}
+
+/* Box del Usuario */
+
+.chat-message2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-message2 > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20%;
+}
+
+.chat-message2 > .message-bubble2 {
+    background-color: #cecece;
+    color: rgb(59, 59, 59);
+    padding: 10px;
+    font-family: 'Tahoma';
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 60%;
+    margin-top: 10px;
+}
+
+/* Sugerencias */
+.chat-suggestions {
+    margin-top: 10px;
+  }
+  
+.suggestion {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #e6e3e3;
+    color: rgb(59, 59, 59);
+    padding: 5px;
+    font-family: 'Tahoma';
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.suggestion:hover {
+    background-color: #c5c5c5;
+    transition: 0.2s;
+}
+  
+
+
+
+  
+
+
+  
